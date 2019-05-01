@@ -35,11 +35,11 @@ function handleText(textNode)
 	var v = textNode.nodeValue;
 
 	v = v.replace(/\bhead\b/g, "nugget");
-	v = v.replace(/\bbread\b/g, "caaaaarbs");
-	v = v.replace(/\bBread\b/g, "Caaaaarbs");
-	v = v.replace(/\bScones\b/g, "Caaaaarbs");
-	v = v.replace(/\bBuns\b/g, "Caaaaarbs");
-	v = v.replace(/\bspaghetti\b/g, "caaaaarbs");
+	v = v.replace(/\bHead\b/g, "Nugget");
+	v = v.replace(/\bHEAD\b/g, "NUGGET");
+	v = v.replace(/\bbox\b/g, "container");
+	v = v.replace(/\bBox\b/g, "Container");
+	v = v.replace(/\bBOX\b/g, "CONTAINER");
 	
 	textNode.nodeValue = v;
 }
