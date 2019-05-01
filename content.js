@@ -37,9 +37,15 @@ function handleText(textNode)
 	v = v.replace(/\bhead\b/g, "nugget");
 	v = v.replace(/\bHead\b/g, "Nugget");
 	v = v.replace(/\bHEAD\b/g, "NUGGET");
+	v = v.replace(/\bheads\b/g, "nuggets");
+	v = v.replace(/\bHeads\b/g, "Nuggets");
+	v = v.replace(/\bHEADS\b/g, "NUGGETS");
 	v = v.replace(/\bbox\b/g, "container");
 	v = v.replace(/\bBox\b/g, "Container");
 	v = v.replace(/\bBOX\b/g, "CONTAINER");
+	v = v.replace(/\bboxes\b/g, "containers");
+	v = v.replace(/\bBoxes\b/g, "Containers");
+	v = v.replace(/\bBOXES\b/g, "CONTAINERS");
 	
 	textNode.nodeValue = v;
 }
