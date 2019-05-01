@@ -46,6 +46,7 @@ function handleText(textNode)
 	v = v.replace(/\bboxes\b/g, "containers");
 	v = v.replace(/\bBoxes\b/g, "Containers");
 	v = v.replace(/\bBOXES\b/g, "CONTAINERS");
+	v = v.replace(/\bWEBOX\b/g, "WECONTAINER");
 	
 	textNode.nodeValue = v;
 }
