@@ -4,9 +4,8 @@
   "name": "NuggetContainer",
   "version": "0.1.1",
   "description": "Because you can't say 'head' or 'box'",
-  "icons": { "16": "images/breadsticks16.png",
-           "48": "images/breadsticks48.png",
-          "128": "images/breadsticks128.png" },
+  "icons": { "16": "img/favicon-16x16.png",
+           "32": "img/favicon-32x32.png" },
   "content_scripts": [
     {
     "matches": ["*://*/*"],
